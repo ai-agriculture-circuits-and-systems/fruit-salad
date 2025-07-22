@@ -1,6 +1,50 @@
 {
-  "category_id": 9,
-  "category_name": "kiwi",
-  "subcategory_id": 3,
-  "subcategory_name": "mosaic cartoon kiwi"
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 1934047878,
+      "width": 1024,
+      "height": 1024,
+      "file_name": "9_3.png",
+      "size": 1196217,
+      "format": "PNG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "subcategory_id": 3,
+      "subcategory_name": "mosaic cartoon kiwis"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 7660057878,
+      "image_id": 1934047878,
+      "category_id": 9,
+      "segmentation": [],
+      "area": 1048576,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 9,
+      "name": "kiwis",
+      "supercategory": "kiwi"
+    }
+  ]
 }

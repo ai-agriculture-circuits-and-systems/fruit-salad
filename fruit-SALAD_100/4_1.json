@@ -1,6 +1,50 @@
 {
-  "category_id": 4,
-  "category_name": "orange",
-  "subcategory_id": 1,
-  "subcategory_name": "oil painting orange"
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 5118497877,
+      "width": 1024,
+      "height": 1024,
+      "file_name": "4_1.png",
+      "size": 1675051,
+      "format": "PNG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "subcategory_id": 1,
+      "subcategory_name": "oil painting oranges"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 2520181877,
+      "image_id": 5118497877,
+      "category_id": 4,
+      "segmentation": [],
+      "area": 1048576,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "oranges",
+      "supercategory": "orange"
+    }
+  ]
 }

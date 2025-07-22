@@ -1,6 +1,50 @@
 {
-  "category_id": 1,
-  "category_name": "fig",
-  "subcategory_id": 4,
-  "subcategory_name": "knitted fig"
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 3666776877,
+      "width": 1024,
+      "height": 1024,
+      "file_name": "1_4.png",
+      "size": 1623831,
+      "format": "PNG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "subcategory_id": 4,
+      "subcategory_name": "knitted figs"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 8977811877,
+      "image_id": 3666776877,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 1048576,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "figs",
+      "supercategory": "fig"
+    }
+  ]
 }

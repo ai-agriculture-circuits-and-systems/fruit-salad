@@ -1,6 +1,50 @@
 {
-  "category_id": 3,
-  "category_name": "apple",
-  "subcategory_id": 1,
-  "subcategory_name": "oil painting apple"
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 706381877,
+      "width": 1024,
+      "height": 1024,
+      "file_name": "3_1.png",
+      "size": 1605191,
+      "format": "PNG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "subcategory_id": 1,
+      "subcategory_name": "oil painting apples"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 6803047877,
+      "image_id": 706381877,
+      "category_id": 3,
+      "segmentation": [],
+      "area": 1048576,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "apples",
+      "supercategory": "apple"
+    }
+  ]
 }

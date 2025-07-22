@@ -11,9 +11,9 @@ This repository contains the code to reproduce the fruit-SALAD dataset. Please s
 
 ## About
 
-The carefully designed Style Aligned Artwork Dataset (SALAD) provides a controlled and balanced platform for the comparative analysis of similarity perception of different computational models. The SALAD framework allows the comparison of how these models perform semantic category and style recognition tasks, going beyond the level of anecdotal knowledge, making them robustly quantifiable and qualitatively interpretable.
+The Style Aligned Artwork Dataset (SALAD) provides a controlled and balanced platform for the comparative analysis of similarity perception in different computational models. The SALAD framework enables robust and interpretable comparison of semantic category and style recognition tasks.
 
-We used [Stable Diffusion XL](https://arxiv.org/abs/2307.01952) and [StyleAligned](https://arxiv.org/abs/2312.02133) to create the fruit-SALAD by carefully crafting text prompts and overseeing the image generation process. Original code by [Amir Hertz](https://github.com/amirhertz), [Andrey Voynov](https://github.com/anvoynov) and [Yuvraj Sharma](https://github.com/yvrjsharma). See [github.com/google/style-aligned](https://github.com/google/style-aligned/).
+We used [Stable Diffusion XL](https://arxiv.org/abs/2307.01952) and [StyleAligned](https://arxiv.org/abs/2312.02133) to create fruit-SALAD by carefully crafting text prompts and overseeing the image generation process. Original code by [Amir Hertz](https://github.com/amirhertz), [Andrey Voynov](https://github.com/anvoynov), and [Yuvraj Sharma](https://github.com/yvrjsharma). See [github.com/google/style-aligned](https://github.com/google/style-aligned/).
 
 ---
 
@@ -44,15 +44,15 @@ fruit-SALAD_100/
 | category_id | Category Name | style_id | Style Name         |
 |-------------|--------------|----------|--------------------|
 | 0           | blueberries  | 0        | sketch             |
-| 1           | fig          | 1        | oil painting       |
-| 2           | strawberry   | 2        | hard painting      |
-| 3           | apple        | 3        | mosaic cartoon     |
-| 4           | orange       | 4        | knitted            |
-| 5           | pineapple    | 5        | wooden             |
+| 1           | figs         | 1        | oil painting       |
+| 2           | strawberries | 2        | hard painting      |
+| 3           | apples       | 3        | mosaic cartoon     |
+| 4           | oranges      | 4        | knitted            |
+| 5           | pineapples   | 5        | wooden             |
 | 6           | bananas      | 6        | pencil drawing     |
-| 7           | pear         | 7        | plastic            |
-| 8           | avocado      | 8        | real               |
-| 9           | kiwi         | 9        | multi real         |
+| 7           | pears        | 7        | plastic            |
+| 8           | avocados     | 8        | real               |
+| 9           | kiwis        | 9        | multi real         |
 
 ---
 
@@ -62,17 +62,58 @@ Each image has a corresponding JSON file containing its semantic and style infor
 
 ```
 {
-  "category_id": 3,
-  "category_name": "apple",
-  "subcategory_id": 8,
-  "subcategory_name": "real apple"
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 1234567890,
+      "width": 512,
+      "height": 512,
+      "file_name": "3_1.jpg",
+      "size": 123456,
+      "format": "JPEG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "subcategory_id": 1,
+      "subcategory_name": "oil painting apples"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 2345678901,
+      "image_id": 1234567890,
+      "category_id": 3,
+      "segmentation": [],
+      "area": 262144,
+      "bbox": [0, 0, 512, 512]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "apples",
+      "supercategory": "apple"
+    }
+  ]
 }
 ```
 
-- `category_id`: Integer, the main fruit category (0-9).
-- `category_name`: String, the name of the fruit.
-- `subcategory_id`: Integer, the style category (0-9).
-- `subcategory_name`: String, the style and fruit combined (e.g., "real apple", "oil painting fig").
+- `info`: General information about the dataset and license.
+- `images`: List with a single entry describing the image and its style (subcategory).
+  - `subcategory_id`: The style id (from the filename).
+  - `subcategory_name`: The style and fruit combined (e.g., "oil painting apples").
+- `annotations`: List with a single entry describing the annotation for the image (full image bounding box).
+- `categories`: List with a single entry for the image's main category (plural name and singular supercategory).
 
 ---
 

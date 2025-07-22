@@ -1,6 +1,50 @@
 {
-  "category_id": 8,
-  "category_name": "avocado",
-  "subcategory_id": 7,
-  "subcategory_name": "plastic avocado"
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 9154313878,
+      "width": 1024,
+      "height": 1024,
+      "file_name": "8_7.png",
+      "size": 1697100,
+      "format": "PNG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "subcategory_id": 7,
+      "subcategory_name": "plastic avocados"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 9245891878,
+      "image_id": 9154313878,
+      "category_id": 8,
+      "segmentation": [],
+      "area": 1048576,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 8,
+      "name": "avocados",
+      "supercategory": "avocado"
+    }
+  ]
 }

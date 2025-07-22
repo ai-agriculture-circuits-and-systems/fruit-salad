@@ -1,6 +1,50 @@
 {
-  "category_id": 7,
-  "category_name": "pear",
-  "subcategory_id": 9,
-  "subcategory_name": "multi real pear"
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 1993858878,
+      "width": 1024,
+      "height": 1024,
+      "file_name": "7_9.png",
+      "size": 1500562,
+      "format": "PNG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "subcategory_id": 9,
+      "subcategory_name": "multi real pears"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 8278616878,
+      "image_id": 1993858878,
+      "category_id": 7,
+      "segmentation": [],
+      "area": 1048576,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 7,
+      "name": "pears",
+      "supercategory": "pear"
+    }
+  ]
 }

@@ -1,6 +1,50 @@
 {
-  "category_id": 4,
-  "category_name": "orange",
-  "subcategory_id": 6,
-  "subcategory_name": "pencil drawing orange"
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 9801647877,
+      "width": 1024,
+      "height": 1024,
+      "file_name": "4_6.png",
+      "size": 1785930,
+      "format": "PNG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "subcategory_id": 6,
+      "subcategory_name": "pencil drawing oranges"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 9964431877,
+      "image_id": 9801647877,
+      "category_id": 4,
+      "segmentation": [],
+      "area": 1048576,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "oranges",
+      "supercategory": "orange"
+    }
+  ]
 }

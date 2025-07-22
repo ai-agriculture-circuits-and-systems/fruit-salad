@@ -1,6 +1,50 @@
 {
-  "category_id": 2,
-  "category_name": "strawberry",
-  "subcategory_id": 8,
-  "subcategory_name": "real strawberry"
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 5933275877,
+      "width": 1024,
+      "height": 1024,
+      "file_name": "2_8.png",
+      "size": 1453999,
+      "format": "PNG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "subcategory_id": 8,
+      "subcategory_name": "real strawberries"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 3205618877,
+      "image_id": 5933275877,
+      "category_id": 2,
+      "segmentation": [],
+      "area": 1048576,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "strawberries",
+      "supercategory": "strawberry"
+    }
+  ]
 }

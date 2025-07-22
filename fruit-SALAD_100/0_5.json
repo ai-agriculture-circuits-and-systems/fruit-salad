@@ -1,6 +1,50 @@
 {
-  "category_id": 0,
-  "category_name": "blueberries",
-  "subcategory_id": 5,
-  "subcategory_name": "wooden blueberries"
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 6538791877,
+      "width": 1024,
+      "height": 1024,
+      "file_name": "0_5.png",
+      "size": 1403380,
+      "format": "PNG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "subcategory_id": 5,
+      "subcategory_name": "wooden blueberries"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 9540789877,
+      "image_id": 6538791877,
+      "category_id": 0,
+      "segmentation": [],
+      "area": 1048576,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "blueberries",
+      "supercategory": "blueberry"
+    }
+  ]
 }

@@ -1,6 +1,50 @@
 {
-  "category_id": 1,
-  "category_name": "fig",
-  "subcategory_id": 5,
-  "subcategory_name": "wooden fig"
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 2498404877,
+      "width": 1024,
+      "height": 1024,
+      "file_name": "1_5.png",
+      "size": 1386636,
+      "format": "PNG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "subcategory_id": 5,
+      "subcategory_name": "wooden figs"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 3424725877,
+      "image_id": 2498404877,
+      "category_id": 1,
+      "segmentation": [],
+      "area": 1048576,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "figs",
+      "supercategory": "fig"
+    }
+  ]
 }

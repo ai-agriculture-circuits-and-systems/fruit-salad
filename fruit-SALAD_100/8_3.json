@@ -1,6 +1,50 @@
 {
-  "category_id": 8,
-  "category_name": "avocado",
-  "subcategory_id": 3,
-  "subcategory_name": "mosaic cartoon avocado"
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 6389967878,
+      "width": 1024,
+      "height": 1024,
+      "file_name": "8_3.png",
+      "size": 994149,
+      "format": "PNG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "subcategory_id": 3,
+      "subcategory_name": "mosaic cartoon avocados"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 3196414878,
+      "image_id": 6389967878,
+      "category_id": 8,
+      "segmentation": [],
+      "area": 1048576,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 8,
+      "name": "avocados",
+      "supercategory": "avocado"
+    }
+  ]
 }

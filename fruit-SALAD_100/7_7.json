@@ -1,6 +1,50 @@
 {
-  "category_id": 7,
-  "category_name": "pear",
-  "subcategory_id": 7,
-  "subcategory_name": "plastic pear"
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 8936218878,
+      "width": 1024,
+      "height": 1024,
+      "file_name": "7_7.png",
+      "size": 1487185,
+      "format": "PNG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "subcategory_id": 7,
+      "subcategory_name": "plastic pears"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 8554373878,
+      "image_id": 8936218878,
+      "category_id": 7,
+      "segmentation": [],
+      "area": 1048576,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 7,
+      "name": "pears",
+      "supercategory": "pear"
+    }
+  ]
 }

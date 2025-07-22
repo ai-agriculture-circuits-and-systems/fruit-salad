@@ -1,6 +1,50 @@
 {
-  "category_id": 4,
-  "category_name": "orange",
-  "subcategory_id": 4,
-  "subcategory_name": "knitted orange"
+  "info": {
+    "description": "data",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "search engine",
+    "source": "augmented",
+    "license": {
+      "name": "Creative Commons Attribution 4.0 International",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "images": [
+    {
+      "id": 6477183877,
+      "width": 1024,
+      "height": 1024,
+      "file_name": "4_4.png",
+      "size": 1967477,
+      "format": "PNG",
+      "url": "",
+      "hash": "",
+      "status": "success",
+      "subcategory_id": 4,
+      "subcategory_name": "knitted oranges"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 5615023877,
+      "image_id": 6477183877,
+      "category_id": 4,
+      "segmentation": [],
+      "area": 1048576,
+      "bbox": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "oranges",
+      "supercategory": "orange"
+    }
+  ]
 }
